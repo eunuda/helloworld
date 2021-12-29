@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+* {
+
+  
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+
+    /*전체 선택자*/
+}
+
+.content {
+    /*클래스 선택자*/
+}
+
+#row {
+     /*아이디 선택자*/
+}
+
+h1,
+p {
+     /*타입 선택자*/
+}
+.content {
+    width :50;
+    float : left;
+
+}
+
+div.theme ul {
+margin-left  : 50px;
+list-style-type: square;
+  /* 스페이스바랑 > 표시구분할것 , 부/자 관계 */
+}
+.content>ul  {
+
+    list-style-type: circle;
+
+}
+
+li+ul {
+   
+background :burlywood;
+
+}
+
+/* 물결무늬는 형제선택... 묶음전체 안에서 선택된거 가져옴 , +랑 다름*/
+li~ul {
+    color :red;
+}
+#signup fieldset:nth-child(1) label{
+    width : 30%;
+    float: left;
+
+}
+
+#signup fieldset:nth-child(2) label{
+    width : 40%;
+    float: left;
+
+}
+
+body>ul {
+    margin-left: 100px;
+}
+
+a[href] {
+color: red;
+
+
+}
+
+a [class^= "main"] {
+
+    background-color:  cadetblue;
+
+}
+
+
+
+
+
+</style>
+</head>
+
+<body>
+    
+<ul>
+ 
+    
+ <li><a class = "main first" href="http://www.spec.whatwg.org" target="_blank">HTML</a></li>
+     <li><a class = "main second" href="http://www.w3.org" target="_blank">W3</a></li>
+    <li><a class = "main second-1" href="http://www.spec.org" target="_blank">SPEC</a></li>
+     <li><a class = "main second-2" href="http://www.spec.whatwg.org">HTML</a></li>
+     <li><a class = "main" target="_blank" >NONE</a></li>
+   
+ 
+    </ul>
+
+<div style="height: 100px;" ></div>
+<div class = "container">
+<div class = "theme">
+
+<ul>
+    <li>Apple</li>
+    <li>Banana</li>
+    <li>Cherry</li>
+<ul>
+<li>Car</li>
+<li>Plane</li>
+</ul>
+
+
+</div>
+
+
+<div class = "content">
+    <ul>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Cherry</li>
+    </ul>
+</div>
+</div>
+
+
+
+
+
+
+
+</body>
+</html>

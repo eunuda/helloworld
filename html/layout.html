@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css/layout.html</title>
+
+    <style>
+        * {
+
+            box-sizing: border-box;
+            
+        }
+
+        header {
+            height: 50px;
+            border: 1px solid green;
+            
+        }
+
+
+        nav {
+            width: 25%;
+            height: 60vh;
+            float: left;
+           
+            border: 1px solid green;
+        }
+
+        main {
+            width: 49%;
+            height: 60vh;
+            float: left;
+   
+            border: 1px solid green;
+        }
+
+
+        aside {
+            background-color: rgb(245, 234, 215);
+            width: 25%;
+            height: 60vh;
+            float: left;
+
+            border: 1px solid green;
+        }
+
+        footer {
+            clear: both;
+            height: 40px;
+            background-color: rgb(245, 234, 215);
+            
+            border: 1px solid green;
+        }
+
+        header>ul {
+            list-style-type: none;
+         
+        }
+
+        header>li {
+
+            width: 25%;
+
+            margin: 20px 5px 15px;
+
+           float: left;
+
+
+        }
+
+        .menu {
+            font-size: .9em;
+            padding-left: 15px;
+            padding-bottom: 20px;
+            margin-top: 30px;
+
+
+        }
+
+
+        .category {
+            padding-bottom: 5px;
+
+            background-color: rgb(200,204,209);
+            margin-bottom: 10px;
+
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        aside>ul {
+            list-style-type: none;
+
+        }
+
+        aside>li {
+            color: indianred;
+
+        }
+
+        .button {
+            background-color: olivedrab;
+
+            padding: 10px 30px;
+
+
+            border: none;
+            border-radius: 5px;
+
+            color: white;
+            margin-left: 80%;
+
+
+            margin-top: 5px;
+            font-size: 15px;
+
+
+
+
+        }
+
+
+
+        * {
+            margin: 0;
+            padding: 0;
+            font-size: 10px;
+
+        }
+
+        table {
+
+            border-top: 2px solid rgb(13, 2, 3);
+            border-collapse: collapse;
+
+        }
+
+        caption {
+            padding-top: 0px;
+            padding-bottom: 20px;
+            text-align: left;
+            font-size: 2em;
+        }
+
+        tr {
+
+            border-bottom: 1px solid grey;
+
+        }
+
+        th,
+        td {
+
+            line-height: 5em;
+
+
+            padding: 6px;
+
+            text-align: center;
+
+        }
+
+        .contents {
+            text-align: start;
+
+        }
+    </style>
+</head>
+
+
+<body>
+    <header>
+      
+
+            <li> home</li>
+            <li> 게시판</li>
+            <li> FAQ</li>
+            <li> 로그인</li>
+
+       
+
+
+    </header>
+    <nav>
+        <div class="Category"> <a href="#"> 게시판 카테고리</a></div>
+        <div class="Category activate"> <a href="#"> 자유게시판</a></div>
+        <div class="Category"> <a href="#"> 리뷰게시판</a></div>
+        <div class="Category"> <a href="#"> 네이버 동영상게시판</a></div>
+        <div class="Category"> <a href="#"> 자료실게시판</a></div>
+
+
+    </nav>
+
+    <main>
+ <div>
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <table>
+
+            <caption> 자유게시판 </caption>
+            <tr>
+                <th>no</th>
+                <th style="width: 500px;">제목</th>
+                <th>글쓴이</th>
+                <th>작성시간</th>
+                <th>좋아요</th>
+            </tr>
+    
+            <tr>
+                <td>10</td>
+                <td class="title">네이버 지도 임베드</td>
+                <td>이은우</td>
+                <td>2019-12-17</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td class="title">제목</td>
+                <td>홍길동</td>
+                <td>2019-12-16</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td class="title">구글 지도 게시물에 임베드 하기</td>
+                <td>홍길동</td>
+                <td>2019-12-16</td>
+                <td>0</td>
+            </tr>
+        </table>
+
+
+        </div>
+    </main>
+
+
+    <aside>
+        <ul>빠른시작가이드</ul>
+        <ul>디자인 모드란?</ul>
+        <ul>아엠 페이지 구조 </ul>
+        <ul> 공통 디자인 등록</ul>
+
+    
+
+    </aside>
+    <footer>
+
+        <p>
+            상호명: (주)아이웹 | 대표이사 : 이수모 </p>
+
+        <p>
+            본사 : 서울특별시 서대문구 성산로7길 89-8 </p>
+
+        <p>
+            고객지원 : 문의 게시판 또는 실시간채팅 </p>
+
+
+    </footer>
+
+
+
+</body>
+
+</html>
