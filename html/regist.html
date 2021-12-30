@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        * {
+
+            box-sizing: border-box;
+
+        }
+
+        .header {
+            background-color: steelblue;
+            color: #ffffff;
+            padding: 10px;
+            width: 800px;
+
+        }
+
+        header {
+            height: 10px;
+            border: 1px solid black;
+
+        }
+
+
+
+        .row::after {
+            content: "";
+            clear: both;
+            display: block;
+        }
+
+        [class*="col-"] {
+            float: left;
+            padding: 10px;
+        }
+
+        * {
+            margin: px;
+            font-size: 15px;
+            font-style: italic;
+
+        }
+
+        table {
+            border-bottom: 2px solid rgb(13, 2, 3);
+            border-top: 2px solid rgb(13, 2, 3);
+            border-collapse: collapse;
+
+        }
+
+
+        tr {
+
+            border-bottom: 1px solid grey;
+
+        }
+
+        th,
+        td {
+
+            line-height: 2em;
+
+
+            padding: 60px;
+
+            text-align: left;
+
+        }
+
+        .contents {
+            text-align-last: auto;
+
+        }
+    </style>
+</head>
+
+<body style="background-color: darkgrey ;">
+
+
+    <div class="header">
+        <h1>codevang's page</h1>
+    </div>
+
+    <table>
+
+
+
+
+        <p>분야</p>
+        <form>
+            <select name="eunu">
+                <option value="기타"> 기타
+
+
+
+        </form>
+
+
+
+
+        <tr>
+            <td>제목<form action="/examples/media/request.php">
+                    <input type="text" name="nickname" value="게시판에 사진(이미지) 올리는 방법"><br><br>
+                </form>
+            </td>
+
+
+        </tr>
+
+        <tr>
+            <td>작성자 엔씨 소프트 문화제단 </td>
+
+
+        </tr>
+        <tr>
+            <td>내용
+                <form action="/examples/media/request.php">
+                     <br>
+                    <input type="text" name="글쓰기" value="글을 쓰려면 클릭하세요" padding="100px"><br><br>
+                    <input type="submit" value="전송">
+                </form> 
+           
+
+
+        <tr>
+            <td>첨부파일 <button type="button" onclick="alert('창을 이동합니다')">파일선택.</button></td>
+
+
+        <tr>
+            <td>이미지 <button type="button" onclick="alert('창을 이동합니다.')">파일선택.</button></td>
+            <td class="title"> </td>
+
+
+
+
+
+
+    </table>
+
+    </div>
+
+    </main>
+
+
+
+
+
+
+
+</body>
+
+</html>

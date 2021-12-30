@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        * {
+
+            box-sizing: border-box;
+
+        }
+
+
+        .header {
+            background-color: steelblue;
+            color: #ffffff;
+            padding: 0px;
+            width: 100px;
+
+
+        }
+
+        header {
+            height: 50px;
+            border: 1px solid green;
+
+        }
+
+
+        
+.row::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+        * {
+            margin: 10px;
+            font-size: 10px;
+            font-style: italic;
+
+
+        }
+
+        table {
+
+            border-top: 2px solid rgb(13, 2, 3);
+            border-collapse: collapse;
+
+        }
+
+        caption {
+            padding-top: 0px;
+            padding-bottom: 20px;
+            text-align: left;
+            font-size: 2em;
+        }
+
+        tr {
+
+            border-bottom: 1px solid grey;
+
+        }
+
+        th,
+        td {
+
+            line-height: 5em;
+
+
+            padding: 6px;
+
+            text-align: center;
+
+        }
+
+        .contents {
+            text-align: start;
+
+        }
+    </style>
+</head>
+
+
+<body style="background-color: darkgrey ;">
+
+    <div class="header">
+        <h1>codevang's page</h1>
+    </div>
+
+  
+
+
+        <div class="row">
+            <div class="col-3 menu">
+              <ul>
+             <h1>Category</1>
+             
+                <li>게시판</li>
+              <li>일반게시판</li>
+              <li>코딩게시판</li>
+          
+              </ul>
+            </div>
+
+
+
+        <table>
+
+
+            <tr>
+                <th>no</th>
+                <th style="width: 500px;">제목</th>
+                <th>글쓴이</th>
+                <th>작성시간</th>
+                <th>조회수</th>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td class="title">안녕하세요!</td>
+                <td>이은우</td>
+                <td>2019-12-17</td>
+
+            </tr>
+            <tr>
+                <td>2</td>
+                <td class="title">집좀가자.. ㅠㅠ </td>
+                <td>이은우</td>
+                <td>2019-12-16</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td class="title">내일쉰다 아싸 </td>
+                <td>이은우</td>
+                <td>2019-12-16</td>
+                <td>0</td>
+
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td class="title">교수님..시험쉽게내주실거죠....</td>
+                <td>이은우</td>
+                <td>2019-12-16</td>
+                <td>0</td>
+            </tr>
+
+
+            <tr>
+                <td>1</td>
+                <td class="title"> 일주일만쉬고싶다..... </td>
+                <td>이은우</td>
+                <td>2019-12-16</td>
+                <td>0</td>
+            </tr>
+
+
+
+
+        </table>
+
+
+
+        </div>
+
+
+    </main>
+
+
+
+	<button type="button" onclick="alert('새글쓰기를 클릭하셨습니다.')">새글쓰기.</button>
+
+
+
+
+</body>
+
+</html>
